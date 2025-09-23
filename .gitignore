@@ -1,0 +1,204 @@
+# ====================
+# GO LANGUAGE
+# ====================
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go build command
+server/server
+server/server.exe
+client/client
+client/client.exe
+main
+main.exe
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go modules
+go.sum
+vendor/
+
+# ====================
+# WAILS SPECIFIC
+# ====================
+
+# Wails build output
+build/
+dist/
+*.syso
+
+# Wails generated files
+app.syso
+icon.ico
+icon.png
+
+# Frontend dist/build files
+frontend/dist/
+frontend/build/
+frontend/node_modules/
+
+# Wails bindings
+frontend/wailsjs/
+
+# ====================
+# NODE.JS / FRONTEND
+# ====================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# ====================
+# OPERATING SYSTEM
+# ====================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Linux
+*~
+.nfs*
+
+# ====================
+# IDEs / EDITORS
+# ====================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# GoLand/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ====================
+# DEVELOPMENT / DEBUG
+# ====================
+
+# Debug files
+debug
+__debug_bin*
+*.pprof
+
+# Test coverage
+*.out
+coverage.html
+coverage.txt
+
+# Air live reload (Go)
+tmp/
+.air.toml
+
+# Logs específicos do projeto
+slot-machine.log
+server.log
+client.log
+
+# Configurações locais
+config.local.json
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+
+# ====================
+# PROJETO ESPECÍFICO
+# ====================
+
+# Executáveis do projeto
+slot-server
+slot-server.exe
+slot-client
+slot-client.exe
+
+# Arquivos de configuração sensíveis
+secrets.json
+credentials.json
+
+# Dados de teste
+testdata/
+mock_data/
+
+# Screenshots/videos para README (opcional - remova se quiser versionar)
+screenshots/
+demos/
