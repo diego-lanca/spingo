@@ -39,7 +39,7 @@ func NewSlotMachine() *SlotMachine {
 func (s *SlotMachine) Spin(args *SpinArgs, result *SpinResult) error {
 	gameSymbols := make([]string, 3)
 
-	for i := 0; i < 3; i++ {
+	for i := range 3 {
 		gameSymbols[i] = symbols[rand.IntN(len(symbols))]
 	}
 
